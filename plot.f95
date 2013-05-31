@@ -51,9 +51,9 @@ contains
         if (lattice(i, j) .eq. 1) then
           call plcol0(1)            !default red
           call plpoin([x], [y], 30) !30 denotes up-arrow glyph
-        !else
-          !call plcol0(11)           !default cyan
-          !call plpoin([x], [y], 31) !31 denotes down-arrow glyph
+        else ! Comment out the else clauses to speed drawing
+          call plcol0(11)           !default cyan
+          call plpoin([x], [y], 31) !31 denotes down-arrow glyph
         end if
       end do
     end do
