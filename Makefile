@@ -16,3 +16,7 @@ $(TARGET): $(OBJS)
 
 %.o:%.f95
 	$(COMPILE) -c $<
+
+.PHONY:clean
+clean:
+	rm *.exe *.o *.mod
