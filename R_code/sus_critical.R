@@ -9,7 +9,7 @@ x1 = log(Temperature - Temperature[sus.crit])
 y1 = log(Susceptibility)
 
 plot(x1,y1,type="n",
-    ylim = c(-20,-12), 
+    ylim = c(-20,-12),
     xlab = "Log(Temperature - Tc)",
     ylab = "Log(Susceptibility)",
     main = expression(paste("Susceptibility Exponent ",gamma," (tail)")))

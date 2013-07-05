@@ -1,4 +1,4 @@
-spin.file <- "array.dat" 
+spin.file <- "array.dat"
 #change to path of spin output file
 
 spin.colors <- c("purple","red","green") #downspin, upspin

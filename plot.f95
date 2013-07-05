@@ -2,13 +2,13 @@ module plot
   use plplot
   implicit none
   private
-  
+
   public plot_init, plot_close, plot_lattice
 
 contains
 
   subroutine plot_init(latticeSize)
-    integer, intent(in) :: latticeSize 
+    integer, intent(in) :: latticeSize
     call plsdev("xcairo")
     call plinit()
 

@@ -20,12 +20,12 @@ plot(Temperature,Susceptibility,type="l",
 abline(v = Temperature[sus.max],col = "red",lty = 3)
 abline(v = Temperature[cv.max],col = "green",lty = 3)
 
-plot(Temperature,Energy,type="l", 
+plot(Temperature,Energy,type="l",
     xlab="Temperature",ylab="<Energy>")
 abline(v = Temperature[sus.max],col = "red",lty = 3)
 abline(v = Temperature[cv.max],col = "green",lty = 3)
 
-plot(Temperature,Cv,type="l", 
+plot(Temperature,Cv,type="l",
     xlab="Temperature",ylab="<Heat Capacity>")
 abline(v = Temperature[sus.max],col = "red",lty = 3)
 abline(v = Temperature[cv.max],col = "green",lty = 3)
