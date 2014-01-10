@@ -26,7 +26,7 @@ contains
     !call plscol0(8, 128, 128, 128)  ! gray
     !call plscol0(9, 0, 0, 0)        ! black
 
-    call plenv(0.0, latticeSize + 1.0, 0.0, latticeSize + 1.0, 0, 0)
+    call plenv(0d0, latticeSize + 1d0, 0d0, latticeSize + 1d0, 0, 0)
   end subroutine plot_init
 
   subroutine plot_close()
@@ -41,7 +41,7 @@ contains
     ! sites that change.
     integer, intent(in) :: lattice(:,:)
     integer :: i, j
-    real :: x, y
+    real(8) :: x, y
     !Assumes 1 corresponds to up-spin, -1 to down-spin.
 
     call plclear()
