@@ -1,7 +1,7 @@
 # Milestones
 
 ## Day 0
-Introduction to GNU/Linux, Fortran, Github, and LaTeX. 
+### Introduction to GNU/Linux, Fortran, Github, and LaTeX. 
 * Register for an account on [Github](https://www.github.com)
 * Login to the HPC computing platform, clone the [ICCP/coding notes](https://github.com/ICCP/coding-notes) repository, and compile the example code
 * Fork the [ICCP/ising](https://github.com/ICCP/ising) repository with your github account. Clone your fork to the HPC and/or your local computer.
