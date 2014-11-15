@@ -8,14 +8,14 @@ Introduction to GNU/Linux, Fortran, Github, and LaTeX.
 
 ## Week 1
 * Lay out program
-** Write up the physics as you understand it in a LaTeX document (to eventually become a paper)
-** Determine figures-of-interest to include in final report
+  * Write up the physics as you understand it in a LaTeX document (to eventually become a paper)
+  * Determine figures-of-interest to include in final report
 * Implement the 2D square Ising model for a constant temperature
 
 ## Week 2
 * Refine the model with periodic boundary conditions, varied initial conditions
 * Implement a sweep through a temperature range to determine the critical Curie temperature
-** Average several equilibrium systems at each temperature to better your statistics
+  * Average several equilibrium systems at each temperature to better your statistics
 * Begin collecting data
 
 ## Week 3
