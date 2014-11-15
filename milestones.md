@@ -11,6 +11,7 @@
   * Write up the physics as you understand it in a LaTeX document (to eventually become a paper)
   * Determine figures-of-interest to include in final report
 * Implement the 2D square Ising model for a constant temperature
+  * Commit regularly and push changes to your fork!
 
 ## Week 2
 * Refine the model with periodic boundary conditions, varied initial conditions
@@ -21,3 +22,4 @@
 ## Week 3
 * Finalize data collection
 * Write and typeset a short report with your results, making use of your initial layout
+* Submit assignment by creating a pull request on the original [ICCP/ising](https://github.com/ICCP/ising) repository
